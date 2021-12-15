@@ -53,4 +53,4 @@ jobs:
           app-name: 'myquiz'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F056CC27A7E14A4682520561C1360C29 }}
-          package: .
+          package: './dist/alphaAngular'
